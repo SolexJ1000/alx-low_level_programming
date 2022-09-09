@@ -1,0 +1,2 @@
+#!/binbash
+gcc $CFILE -S -masm=intel > ${CFILE::2}".s"
