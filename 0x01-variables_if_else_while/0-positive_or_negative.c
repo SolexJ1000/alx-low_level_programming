@@ -6,6 +6,8 @@
 *
 * Description: Tells if a number is positive or negative
 *
+* section header: section description
+*
 * return: 0
 */
 int main(void)
