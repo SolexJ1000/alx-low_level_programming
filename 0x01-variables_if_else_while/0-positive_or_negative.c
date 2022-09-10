@@ -4,7 +4,9 @@
 /**
 * main -  Assigns a random number to the variable n
 *
-* return: Always 0
+* Description: Tells if a number is positive or negative
+*
+* return: 0
 */
 int main(void)
 {
