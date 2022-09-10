@@ -2,8 +2,8 @@
 /**
 * main - Aprogram that prints single digits of numbers in baes 10
 *
-* Description: This is a program that prints single digits of numbers in base 10
-* char, printf, puts are not allowed
+* Description: This is a program that prints single digits of numbers in
+* base 10 char, printf, puts are not allowed
 *
 * Return: Always 0
 */
