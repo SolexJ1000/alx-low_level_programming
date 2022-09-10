@@ -4,6 +4,10 @@
 /**
 * main - Entry point
 *
+*@n: number that is assigned
+*
+* Description: This program will assign a random number to the variable n each time it is executed
+*
 * return: Always 0
 */
 int main(void)
