@@ -2,8 +2,8 @@
 /**
 * main - prints all possible combinations of two two-digit numbers
 *
-* Description: a program that prints all possible combinations of two two-digit numbers.
-* The numbers ranges from 0 to 99
+* Description: a program that prints all possible combinations
+* of two two-digit numbers.The numbers ranges from 0 to 99
 * The two numbers are separated by a space
 * All numbers are printed with two digits. 1 should be printed as 01
 * The combination of numbers are separated by comma, followed by a space
