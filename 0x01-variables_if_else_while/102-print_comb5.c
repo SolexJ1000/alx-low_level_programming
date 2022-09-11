@@ -15,13 +15,13 @@ int main(void)
 {
 	int w, x, y, z;
 
-	for (w = '0'; w <= '9'; w++)
+	for (w = 48; w <= 57; w++)
 	{
-		for (x = '0'; x <= '9'; w++)
+		for (x = 48; x <= 57; w++)
 		{
-			for (y = '0'; y <= '9'; y++)
+			for (y = 48; y <= 57; y++)
 			{
-				for (z = '0'; z <= '9'; z++)
+				for (z = 48; z <= 57; z++)
 				{
 				if (((y + z) > (w + x) && y >= w) || w < y)
 				{
@@ -30,7 +30,7 @@ int main(void)
 					putchar(' ');
 					putchar(y);
 					putchar(z);
-					if (w + x + y + z == 35 && w == '9')
+					if (w + x + y + z == 227 && w == 57)
 					{
 					break;
 					}
