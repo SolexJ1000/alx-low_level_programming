@@ -1,31 +1,38 @@
-#include <unistd.h>
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
- * Description: prints all possible combination of 2-digit numbers
- * Return: Always 0 (success)
- */
+* main - prints all possible combinations of two two-digit numbers
+*
+* Description: a program that prints all possible combinations
+* of two two-digit numbers.The numbers ranges from 0 to 99
+* The two numbers are separated by a space
+* All numbers are printed with two digits. 1 should be printed as 01
+* The combination of numbers are separated by comma, followed by a space
+* The combinations of numbers are printed in ascending order
+*
+* Return: 0
+*/
 int main(void)
 {
-	int c, i, k, j;
+	int w, x, y, z;
 
-	for (c = 48; c <= 57; c++)
+	for (w = '0'; w <= '9'; w++)
 	{
-		for (i = 48; i <= 57; i++)
+		for (x = '0'; x <= '9'; x++)
 		{
-			for (k = 48; k <= 57; k++)
+			for (y = '0'; y <= '9'; y++)
 			{
-				for (j = 48; j <= 57; j++)
+				for (z = '0'; z <= '9'; z++)
 				{
-				if (((k + j) > (c + i) &&  k >= c) || c < k)
+				if (((y + z) > (w + x) && y >= w) || w < y)
 				{
-					putchar(c);
-					putchar(i);
+					putchar(w);
+					putchar(x);
 					putchar(' ');
-					putchar(k);
-					putchar(j);
+					putchar(y);
+					putchar(z);
 
-					if (c + i + k + j == 227 && c == 57)
+					if (w + x + y + z == 35 && w == '9')
 					{
 					break;
 					}
