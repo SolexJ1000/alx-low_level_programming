@@ -3,24 +3,22 @@
 #include <time.h>
 
 /**
-* main - generates keygen.
+* main - generates random pasword.
 *
 * Return: 0 Always.
 */
 int main(void)
 {
-int r = 0, c = 0;
-time_t t;
+	int sum;
+	char c;
 
-srand((unsigned int) time(&t));
-while (c < 2772)
-{
-r = rand() % 128;
-if ((c + r) > 2772)
-break;
-c = c + r;
-printf("%c", r);
-}
-printf("%c\n", (2772 - c));
-return (0);
+	srand(time(NULL)); 
+	while (sum <= 2645)
+	{
+		c = rand() % 128;
+		sum += c;
+		putchar(c);
+	}
+	putchar(2772 - sum);
+	return (0);
 }
