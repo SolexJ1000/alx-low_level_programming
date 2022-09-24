@@ -20,7 +20,6 @@ int base10(int n)
 }
 
 /**
-
 * print_number - prints integers enters as parameters using putchar
 *
 * @n: integer to print
