@@ -5,6 +5,7 @@
 *
 * @s: The  input string to print
 *
+* Description: This function returns a string and a new line
 * Return: The string inputed
 */
 void _puts_recursion(char *s)
