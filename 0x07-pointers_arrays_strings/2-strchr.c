@@ -5,6 +5,7 @@
 * @s: The main string
 * @c: The charatcer that indicates where the change will start
 *
+* Return: NULL if the character is not found
 */
 char *_strchr(char *s, char c)
 {
