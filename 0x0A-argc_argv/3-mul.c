@@ -1,12 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
 #include <ctype.h>
-/** main - A function that multiplies two numbers
+/**
+ * main - A function that multiplies two numbers
+ *
  * @argc: counts the numbers
  * @argv: multiplies the numbers
  *
  */
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int num1;
 	int num2;
@@ -14,7 +16,7 @@ int main (int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("Error\n");
+		prntf("Error\n");
 		return (1);
 	}
 	else
