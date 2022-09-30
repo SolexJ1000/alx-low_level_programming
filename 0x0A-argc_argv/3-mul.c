@@ -7,6 +7,7 @@
  * @argc: counts the numbers
  * @argv: multiplies the numbers
  *
+ * Return: Always 0
  */
 int main(int argc, char *argv[])
 {
