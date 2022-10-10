@@ -5,7 +5,7 @@
  *   * @name: name of dog
  *    * @age: how old is that dog?
  *     * @owner: who is the lucky person that gets to live with that dog?
- *      */
+ */
 struct dog
 {
 		char *name;
@@ -14,7 +14,7 @@ struct dog
 };
 /**
  *  * typedef dog_t - defines a new name for type struct dog
- *   */
+ */
 typedef struct dog dog_t;
 int _putchar(char c);
 void init_dog(struct dog *d, char *name, float age, char *owner);
