@@ -4,7 +4,6 @@
 /**
  * free_dog - A function that frees structs
  *
- * @dog_t: the first struct
  * @d: the second struct
  *
  * Return: nothing
