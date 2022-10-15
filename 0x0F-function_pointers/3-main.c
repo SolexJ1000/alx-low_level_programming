@@ -26,12 +26,17 @@ int main(int argc, char *argv[])
 	y = atoi(argv[3]);
 
 	p =  get_op_func(argv[2]);
-	if (p == NULL)
+	if (p == NULL || argv[2][1] != '\0')
 	{
 		printf("Error\n");
 		exit(99);
 	}
-	z = (*p)(x, y);
+	if (b == 0 && (*argv[2] == '/' || *argv[2] == '%'))
+	{
+		printf("Error\n");
+		return (100);
+	}
+	z = get_op_func(arg[2])(a, b);
 	printf("%d\n", z);
 	return (0);
 }
